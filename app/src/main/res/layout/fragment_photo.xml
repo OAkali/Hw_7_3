@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_gena_y"
+    android:padding="16dp"
+    tools:context=".PhotoFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2:46"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2003"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="My music"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="My music"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Liaze x equal"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+    <TextView
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Liaze x equal"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+
+</FrameLayout>
